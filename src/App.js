@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import Conter from "./components/Conter";
+
 
 const App = () => {
   return (
     <div>
-      App
+      <Conter/>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
